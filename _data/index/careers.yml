@@ -1,0 +1,43 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "
+
+- name:
+    detail: 至今
+    
+  desc:
+    detail: 
+  date:
+    detail: 2017年
+    
+  job:
+    detail: 移动开发工程师
+    
+  icon: fa-cloud
+
+- name:
+    detail: 工作
+    
+  desc:
+    detail: 在万达信息入职iOS开发，开发App客户端。
+    
+  date:
+    detail: 2015年7月
+    
+  job:
+    detail: iOS开发
+    
+  icon: fa-cloud
+
+- name:
+    detail: 毕业
+    
+  desc:
+    detail: 2015年7月大学毕业，正式进入IT行业。在校期间学习过很多计算机相关知识。
+    
+  date:
+    detail:  2015年7月
+    
+  job:
+    detail: 毕业
+    
+  icon: fa-book

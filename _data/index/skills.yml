@@ -1,0 +1,12 @@
+# skills section data
+- name: iOS/Swift/Objc
+  percentage: 85
+
+- name: Android/Java
+  percentage: 65
+
+- name: Linux/Shell
+  percentage: 75
+
+- name: Git
+  percentage: 85
