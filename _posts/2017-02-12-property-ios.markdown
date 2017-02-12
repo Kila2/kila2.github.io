@@ -40,7 +40,7 @@ tags:
  * copy比较复杂,先说一下我理解copy的语意，对于用copy修饰的对象。在setter中赋值a = b时候是有替换为a = [b copy]，即调用copy方法。如果该对象没有copy方法或者没有实现NSCopying协议，使用该修饰符可以通过编译，但在运行时会报错。而对于某些NSMutable对象，例如：
  
 ```
-NSMutableArray *a = [[NSMutableArray alloc]init];\n
+NSMutableArray *a = [[NSMutableArray alloc]init];
 NSMutableArray *b = [a copy];
 ```
 
@@ -49,10 +49,10 @@ NSArray对象没有addObject，removeAll等方法，如果调用到必然出现�
 对于NSString的copy方法有些特殊，例如:
 
 ```
-@property (copy) NSString *copyStr;\n
-NSMutableString *mStr = [NSMutableString stringWithString:@"string"];\n
-self.copyStr = self.mStr;\n
-[self.name2 appendString:@"11122"];\n
+@property (copy) NSString *copyStr;
+NSMutableString *mStr = [NSMutableString stringWithString:@"string"];
+self.copyStr = self.mStr;
+[self.name2 appendString:@"11122"];
 ```
  * 这时copyStr是“string11122”还是“string”？？？
 
